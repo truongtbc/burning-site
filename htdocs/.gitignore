@@ -1,0 +1,4 @@
+/vendor/*
+/pub/static/*
+/generated/*
+/var/*
