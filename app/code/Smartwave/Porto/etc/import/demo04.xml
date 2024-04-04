@@ -44,7 +44,7 @@
             <header_type>2</header_type>
             <static_block_top>porto_custom_block_for_header_top</static_block_top>
             <static_block>porto_custom_block_for_header_4</static_block>
-            <header2_text><![CDATA[FREE RETURNS. STANDARD SHIPPING ORDERS $99+]]></header2_text>
+            <header2_text><![CDATA[__("FREE RETURNS. STANDARD SHIPPING ORDERS $99+")]]></header2_text>
             <sticky_header>1</sticky_header>
             <sticky_header_logo>0</sticky_header_logo>
             <mobile_sticky_header>1</mobile_sticky_header>
@@ -259,7 +259,7 @@ html .action.primary, html .btn {
 }
 html .action.primary {
     color: #fff;
-    background-color: #08c;
+    background-color: #f38f0c;
     border-color: #08c #08c #069;
 }
 html .btn-modern {
@@ -310,9 +310,9 @@ html .btn-quaternary {
 html .background-color-secondary {
     background-color: #ff7272!important;
 }
-.porto-block-html-top a {
-    background: #0075af !important;
-}
+<!--.porto-block-html-top a {-->
+<!--    background: #0075af !important;-->
+<!--}-->
 
 .page-header .panel.wrapper::after {
     display: none;
