@@ -22,13 +22,4 @@ class Interceptor extends \Magento\Framework\App\PageCache\Kernel implements \Ma
         $pluginInfo = $this->pluginList->getNext($this->subjectType, 'load');
         return $pluginInfo ? $this->___callPlugins('load', func_get_args(), $pluginInfo) : parent::load();
     }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function process(\Magento\Framework\App\Response\Http $response)
-    {
-        $pluginInfo = $this->pluginList->getNext($this->subjectType, 'process');
-        return $pluginInfo ? $this->___callPlugins('process', func_get_args(), $pluginInfo) : parent::process($response);
-    }
 }
