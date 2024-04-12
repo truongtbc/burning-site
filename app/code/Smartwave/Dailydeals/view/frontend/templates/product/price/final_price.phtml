@@ -11,7 +11,7 @@
 
 <?php
 /** @var \Magento\Catalog\Pricing\Render\FinalPriceBox $block */
-// Daily deal Helper 
+// Daily deal Helper
 $helper=$this->helper('Smartwave\Dailydeals\Helper\Data');
 
 $productId = $block->getSaleableItem()->getId();
@@ -30,7 +30,7 @@ $schema = ($block->getZone() == 'item_view') ? true : false;
 ?>
 <?php if($helper->isDealProduct($productId)) : ?>
     <?php
-        $deal_final_price_amount = number_format($helper->getDealproductbyId($productId),2);
+        $deal_final_price_amount = number_format($helper->getDealproductbyId($productId), 2);
     ?>
     <span class="old-price">
         <?php /* @escapeNotVerified */ echo $block->renderAmount($finalPriceModel->getAmount(), [

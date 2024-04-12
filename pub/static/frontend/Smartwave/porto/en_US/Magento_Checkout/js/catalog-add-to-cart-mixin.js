@@ -1,10 +1,1 @@
-define(["jquery"], function($){
-  return function(config, element){
-    var minicart = $(element);
-    minicart.on('contentLoading', function () {
-      minicart.on('contentUpdated', function () {
-        minicart.find('[data-role="dropdownDialog"]').dropdownDialog("open");
-      });
-    });
-  }
-});
+/shared/httpd/burning/htdocs/app/design/frontend/Smartwave/porto/Magento_Checkout/web/js/catalog-add-to-cart-mixin.js

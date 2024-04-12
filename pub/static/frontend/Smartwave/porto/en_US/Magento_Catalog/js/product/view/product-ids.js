@@ -1,12 +1,1 @@
-/**
- * Copyright © Magento, Inc. All rights reserved.
- * See COPYING.txt for license details.
- */
-
-define([
-    'ko'
-], function (ko) {
-    'use strict';
-
-    return ko.observableArray([]);
-});
+/shared/httpd/burning/htdocs/vendor/magento/module-catalog/view/frontend/web/js/product/view/product-ids.js
