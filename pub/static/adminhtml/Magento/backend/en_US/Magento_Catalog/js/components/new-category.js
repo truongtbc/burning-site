@@ -1,0 +1,1 @@
+/shared/httpd/burning/htdocs/vendor/magento/module-catalog/view/adminhtml/web/js/components/new-category.js

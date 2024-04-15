@@ -1,0 +1,1 @@
+/shared/httpd/burning/htdocs/lib/web/jquery/fileUploader/vendor/jquery.ui.widget.js

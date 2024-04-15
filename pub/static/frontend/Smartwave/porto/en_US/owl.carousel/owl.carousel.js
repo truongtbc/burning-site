@@ -1,0 +1,1 @@
+/shared/httpd/burning/htdocs/app/design/frontend/Smartwave/porto/web/owl.carousel/owl.carousel.js
