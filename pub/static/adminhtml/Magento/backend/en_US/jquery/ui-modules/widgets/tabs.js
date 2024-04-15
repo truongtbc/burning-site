@@ -1,0 +1,1 @@
+/shared/httpd/burning/htdocs/lib/web/jquery/ui-modules/widgets/tabs.js
