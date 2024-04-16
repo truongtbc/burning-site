@@ -93,7 +93,8 @@ require([
         echo "min-height:".$popup["height"].";";
     }
     if($popup["bg_color"]){
-        echo "background-color:".$popup["bg_color"].";";
+//        echo "background-color:".$popup["bg_color"].";";
+        echo "background-color: #fa6e2f;";
     }
     if(isset($popup["bg_image"]) && $popup["bg_image"]){
         $folderName = \Smartwave\Porto\Model\Config\Backend\Image\Newsletterbg::UPLOAD_DIR;
@@ -115,7 +116,7 @@ require([
                 $logoUrl = $_helper->getBaseUrl() . $path;
         ?>
         <div class="text_left mb-4 pb-1">
-          <img src="<?php echo $logoUrl; ?>" alt="" />
+          <img src="<?php echo $logoUrl; ?>" alt="" style="max-width: 220px;"/>
         </div>
         <?php
             }
@@ -129,19 +130,19 @@ require([
             id="newsletter-validate-detail">
             <div class="field newsletter">
                 <div class="control">
-                    <input name="email" type="email" id="footer_newsletter" placeholder="<?php echo __("Your email address");?>"
+                    <input name="email" type="email" id="footer_newsletter" placeholder="<?php echo __('Your email address');?>"
                                 data-validate="{required:true, 'validate-email':true}"/>
                 </div>
             </div>
             <div class="actions">
-                <button class="action subscribe primary" title="<?php echo __('Submit') ?>" type="submit">
+                <button class="action subscribe primary" title="<?php echo __('Submit') ?>" type="submit" style="background-color: #fa6e2f; border: none;">
                     <span><?php echo __('Submit') ?></span>
                 </button>
             </div>
         </form>
         <p class="mb-0">
           <label class="checkbox checkbox-inline">
-            <input type="checkbox" id="newsletter_popup_dont_show_again"/><?php echo __("Don't show this popup again"); ?>
+            <input type="checkbox" id="newsletter_popup_dont_show_again" /><?php echo __("Don't show this popup again"); ?>
           </label
         </div>
     </div>

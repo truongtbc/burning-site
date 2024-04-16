@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1713172795;s:6:"expire";i:1744708795;s:4:"tags";s:37:"0b5_LAYOUT_GENERAL_CACHE_TAG,0b5_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1713262354;s:6:"expire";i:1744798354;s:4:"tags";s:37:"0b5_LAYOUT_GENERAL_CACHE_TAG,0b5_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7219,7 +7219,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1713172795;s:6:"expire";i:1744708795;s:4:"t
    <css src="font-awesome/css/font-awesome.min.css"/>
 </head>
 </handle><handle id="customer_account_login" layout="1column"><head>
-   <title translate="true">Customer Login</title>
+   <title>Customer Login</title>
 </head>
 <body>
     </body>

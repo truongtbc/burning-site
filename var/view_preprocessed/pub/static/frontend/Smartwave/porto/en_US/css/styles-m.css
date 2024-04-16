@@ -14856,6 +14856,10 @@ fieldset[disabled] .wishlist.window.popup .popup-actions .action.close {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+#newsletter_popup .text_left img {
+  max-width: 250px;
+  display: block;
+}
 .data.switch .counter {
   color: #c1c1c1;
 }

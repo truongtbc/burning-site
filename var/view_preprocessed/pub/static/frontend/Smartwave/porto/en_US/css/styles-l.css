@@ -2973,6 +2973,10 @@ p.short-des {
 .page-wrapper {
   background-color: #fff;
 }
+#newsletter_popup .text_left img {
+  max-width: 250px;
+  display: block;
+}
 @media (max-width: 991px) {
   .nav-sections .switcher-trigger strong:after {
     font-size: 1.6rem;

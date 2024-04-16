@@ -8431,6 +8431,8 @@ information on installing the agent is available <a target=""_blank"" href=""%1"
 "Enable Cron","Cho phép Cron",module,Magento_NewRelicReporting
 "Delete Selected Problems","Xóa bỏ lựa chọn vấn đề",module,Magento_Newsletter
 "Unsubscribe Selected","Đã chọn hủy đăng ký",module,Magento_Newsletter
+"Don't show this popup again", "Không hiển thị lại cửa sổ này",module,Magento_Newsletter
+"Your email address", "Địa chỉ email của bạn",module,Magento_Newsletter
 "Back","Trở lại",module,Magento_Newsletter
 "Reset","Thiết lập lại",module,Magento_Newsletter
 "Preview Template","Xem trước mẫu",module,Magento_Newsletter
