@@ -15315,3 +15315,6 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "custom.definition","custom.definition",lib,web
 "component.behaviours","component.behaviours",lib,web
 "Customer Login","Đăng nhập của khách hàng"
+"Giao linh shirt", "Áo Giao Linh", module, Magento_Catalog
+"Giao linh shirt", "Áo Giao Linh", module, Magento_Review
+"Giao linh shirt", "Áo Giao Linh", module, Magento_CatalogSearch
