@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1714990332;s:6:"expire";i:1714993932;s:4:"tags";s:47:"0b5_BLOCK_HTML,0b5_CAT_P_247,0b5_CAT_P,0b5_MAGE";}
+                <div class="swatch-opt-247"
+         data-role="swatch-option-247"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-247]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"5447","label":"H\u1ed3ng","products":["245"]},{"id":"8","label":"Xanh l\u00e1","products":["246"]}],"position":"0"}},"template":"<%- data.price %>\u00a0VND","currencyFormat":"%s\u00a0VND","optionPrices":{"245":{"baseOldPrice":{"amount":249739.2},"oldPrice":{"amount":249739.2},"basePrice":{"amount":249739.2},"finalPrice":{"amount":249739.2},"tierPrices":[],"msrpPrice":{"amount":0}},"246":{"baseOldPrice":{"amount":249739.2},"oldPrice":{"amount":249739.2},"basePrice":{"amount":249739.2},"finalPrice":{"amount":249739.2},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0VND","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":249739.2},"oldPrice":{"amount":249739.2},"basePrice":{"amount":249739.2},"finalPrice":{"amount":249739.2}},"productId":"247","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"245":{"93":"5447"},"246":{"93":"8"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"http:\/\/burning.loc\/media\/catalog\/product\/cache\/8f09b6ed8057e111128c80c30d05f649\/c\/a\/ca-heo-hong.jpg","medium":"http:\/\/burning.loc\/media\/catalog\/product\/cache\/e9e6514138fb9a0029a0045e274f482d\/c\/a\/ca-heo-hong.jpg","small":"http:\/\/burning.loc\/media\/catalog\/product\/cache\/0eff835a98b77ec600e3cb396dc3ac3c\/c\/a\/ca-heo-hong.jpg","position":"1","isMain":true,"gallery":{"329":{"large":"http:\/\/burning.loc\/media\/catalog\/product\/cache\/8f09b6ed8057e111128c80c30d05f649\/c\/a\/ca-heo-hong.jpg","medium":"http:\/\/burning.loc\/media\/catalog\/product\/cache\/e9e6514138fb9a0029a0045e274f482d\/c\/a\/ca-heo-hong.jpg","small":"http:\/\/burning.loc\/media\/catalog\/product\/cache\/0eff835a98b77ec600e3cb396dc3ac3c\/c\/a\/ca-heo-hong.jpg","position":"1","isMain":true}}},"channel":"website","salesChannelCode":"base","sku":{"245":"Pillow Feso-Pink","246":"Pillow Feso-Green"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "http\u003A\u002F\u002Fburning.loc\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-247]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"%s\u00a0VND","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                        "prices": {"baseOldPrice":{"amount":249739.2},"oldPrice":{"amount":249739.2},"basePrice":{"amount":249739.2},"finalPrice":{"amount":249739.2}}                    }
+                }
+            }
+        }
+    </script>

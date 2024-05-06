@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1714990352;s:6:"expire";i:1714993952;s:4:"tags";s:46:"0b5_BLOCK_HTML,0b5_CAT_P_96,0b5_CAT_P,0b5_MAGE";}
+                <div class="swatch-opt-96"
+         data-role="swatch-option-96"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-96]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"159":{"id":"159","code":"size","label":"Size","options":[{"id":"10","label":"Medium","products":["97"]},{"id":"11","label":"Large","products":["98"]},{"id":"12","label":"Extra Large","products":["99"]}],"position":"0"},"171":{"id":"171","code":"sex","label":"Sex","options":[{"id":"5442","label":"Nam","products":["97","98","99"]}],"position":"1"},"93":{"id":"93","code":"color","label":"M\u00e0u s\u1eafc","options":[{"id":"6","label":"\u0110\u1ecf","products":["97","98","99"]}],"position":"2"}},"template":"<%- data.price %>\u00a0VND","currencyFormat":"%s\u00a0VND","optionPrices":{"97":{"baseOldPrice":{"amount":634500},"oldPrice":{"amount":634500},"basePrice":{"amount":634500},"finalPrice":{"amount":634500},"tierPrices":[],"msrpPrice":{"amount":0}},"98":{"baseOldPrice":{"amount":634500},"oldPrice":{"amount":634500},"basePrice":{"amount":634500},"finalPrice":{"amount":634500},"tierPrices":[],"msrpPrice":{"amount":0}},"99":{"baseOldPrice":{"amount":634500},"oldPrice":{"amount":634500},"basePrice":{"amount":634500},"finalPrice":{"amount":634500},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"%s\u00a0VND","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":634500},"oldPrice":{"amount":634500},"basePrice":{"amount":634500},"finalPrice":{"amount":634500}},"productId":"96","chooseText":"Ch\u1ecdn m\u1ed9t t\u00f9y ch\u1ecdn...","images":[],"index":{"97":{"159":"10","171":"5442","93":"6"},"98":{"159":"11","171":"5442","93":"6"},"99":{"159":"12","171":"5442","93":"6"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":[],"channel":"website","salesChannelCode":"base","sku":{"97":"Vietnam Red soccer jersey 1 set-Medium-Male-Red","98":"Vietnam Red soccer jersey 1 set-Large-Male-Red","99":"Vietnam Red soccer jersey 1 set-Extra Large-Male-Red"}},
+                    "jsonSwatchConfig": [],
+                    "mediaCallback": "http\u003A\u002F\u002Fburning.loc\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-96]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"%s\u00a0VND","precision":0,"requiredPrecision":0,"decimalSymbol":",","groupSymbol":".","groupLength":3,"integerRequired":true},
+                        "prices": {"baseOldPrice":{"amount":634500},"oldPrice":{"amount":634500},"basePrice":{"amount":634500},"finalPrice":{"amount":634500}}                    }
+                }
+            }
+        }
+    </script>
