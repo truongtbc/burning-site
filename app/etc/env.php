@@ -77,6 +77,6 @@ return [
         'translate' => 1
     ],
     'install' => [
-        'date' => 'Mon, 01 Apr 2024 09:56:17 +0000'
+        'date' => 'Mon, 06 May 2024 09:05:20 +0000'
     ]
 ];
