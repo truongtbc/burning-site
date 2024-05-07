@@ -111,6 +111,24 @@ class Products extends \Magento\Catalog\Block\Product\ListProduct implements \Ma
                     'news_from_date',
                     'desc');
               break;
+          case 'old_products':
+              $collection->addAttributeToFilter(
+                  'news_from_date',
+                  ['date' => true, 'to' => $this->getEndOfDayDate()],
+                  'left')
+                  ->addAttributeToFilter(
+                      'news_to_date',
+                      [
+                          'or' => [
+                              0 => ['date' => true, 'from' => $this->getStartOfDayDate()],
+                              1 => ['is' => new \Zend_Db_Expr('null')],
+                          ]
+                      ],
+                      'left')
+                  ->addAttributeToSort(
+                      'news_from_date',
+                      'esc');
+              break;
           case 'featured_products':
               $collection->addAttributeToFilter('sw_featured', 1, 'left');
               break;
@@ -155,6 +173,12 @@ class Products extends \Magento\Catalog\Block\Product\ListProduct implements \Ma
                   )->where(
                       'dai.sw_date_to >= "'.$this->getDayDate().'" or dai.sw_date_to IS NULL'
                   );
+              break;
+          case 'category_25_products':
+              $collection->addCategoriesFilter(['eq' => 25]);
+              break;
+          case 'category_6_products':
+              $collection->addCategoriesFilter(['eq' => 6]);
               break;
           default:
               $collection->addAttributeToSort('created_at','desc');

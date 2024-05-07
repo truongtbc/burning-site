@@ -150,6 +150,9 @@ class Carousel extends \Magento\Catalog\Block\Product\ListProduct implements \Ma
                       'dai.sw_date_to >= "'.$this->getDayDate().'" or dai.sw_date_to IS NULL'
                   );
               break;
+          case 'category_6_products':
+              $collection->addCategoriesFilter(['eq' => 6]);
+              break;
           default:
               $collection->addAttributeToSort('created_at','desc');
               break;
